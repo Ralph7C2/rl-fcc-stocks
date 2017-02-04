@@ -1,1 +1,10 @@
-Index.ejs!
+<!DOCTYPE html>
+<html lang="en">
+<%- include partials/head.ejs %>
+
+<body>
+	<% stockData.forEach(function(item) { %>
+		<%= item %>
+	<% }); %>
+</body>
+</html>

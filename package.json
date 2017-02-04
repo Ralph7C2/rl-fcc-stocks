@@ -23,6 +23,7 @@
     "express": "^4.14.1",
     "google-stocks": "^1.0.1",
     "mongoose": "^4.8.1",
-    "morgan": "^1.7.0"
+    "morgan": "^1.7.0",
+    "q": "^1.4.1"
   }
 }
