@@ -1,6 +1,7 @@
 var googleStocks = require('google-stocks');
+var StockItem = require('../models/stockItem');
 
-googleStocks(['AAPL'], function(err, data) {
+googleStocks(['AAPL', 'VNR'], function(err, data) {
 	console.log(data);
 });
 
